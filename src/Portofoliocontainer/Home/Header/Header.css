@@ -1,0 +1,33 @@
+.header-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.header-parent {
+  margin: 40px 60px 0 200px;
+}
+.header-parent span {
+  color: white;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  margin: 0px 30px 0 0;
+  font-size: 80px;
+  font-weight: 300;
+  font-family: 'Poppins ExtraBold';
+}
+
+.headerchild {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+.headerchild a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.headerchild :hover {
+  color: orangered;
+}
